@@ -1,0 +1,19 @@
+{
+  "name": "lilac",
+  "version": "1.0.0",
+  "description": "A simple CSS template",
+  "main": "",
+  "scripts": {
+    "build": "uglifycss lilac.css > lilac.min.css",
+    "serve": "node_modules/serve/bin/serve.js"
+  },
+  "author": "Johann Woelper",
+  "license": "ISC",
+  "devDependencies": {
+    "uglifycss": "^0.0.27"
+  },
+  "dependencies": {
+    "serve": "^6.4.8",
+    "uglifycss": "0.0.27"
+  }
+}
