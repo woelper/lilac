@@ -1,108 +1,120 @@
 <!doctype html>
 
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
-  
   <title>Apptest</title>
   <meta name="description" content="Apptest">
-  
   <link rel="stylesheet" href="lilac.css">
 </head>
 
 <body>
-  <nav class="nav-fixed">
-    yo
-    <a href="">Link</a>
-    <a href="">Link</a>
-    <a href="">Link</a>
-    <a href="">Link</a>
+  <nav>
+    <div class="logo">lilac</div>
+    <div id="nav-icon">M</div>
+    <input id="nav-toggle" type="checkbox">
+    <div id="nav-items">
+      <a href="">Link</a>
+      <a href="">Link</a>
+      <a href="">Link</a>
+      <a href="">Link</a>
+      <a href="">Link</a>
+      <a href="">Link</a>
+      <a href="">Link</a>
+    </div>
   </nav>
-  
+
   <div class="content">
-    
-    
     <div class="panel">
-      
       <form>
-        
         <label for="firstname">First name</label>
-        <input id="firstname" placeholder="First name only" autofocus> 
-        
+        <input id="firstname" placeholder="First name only" autofocus>
         <input type="date" required>
-        
-        
-        <label>Email</label> 
+        <label>Email</label>
         <input type="email" placeholder="example@domain.com" required>
-        
-        <label>URL</label> 
+        <label>URL</label>
         <input type="url" placeholder="http://mysite.com">
-        
-        <label>Telephone</label> 
+        <label>Telephone</label>
         <input type="tel" placeholder="Eg. +447000 000000" required>
-        
         <label>Shoesize</label>
         <input type="number" min="5" max="18" step="0.5" value="9">
-        
         <label>Your car</label>
-        
         <select>
           <option value="volvo">Volvo</option>
           <option value="saab">Saab</option>
           <option value="mercedes">Mercedes</option>
           <option value="audi">Audi</option>
-        </select> 
-        
-        <div class="card-type"> 
-          <input id="visa" name="cardtype" type="radio"> 
-          <label for="visa">VISA</label> 
+        </select>
+        <div class="card-type">
+          <input id="visa" name="cardtype" type="radio">
+          <label for="visa">VISA</label>
           <input id="mastercard" name="cardtype" type="radio">
-          <label for="mastercard">Mastercard</label> 
-          <input id="amex" name="cardtype" type="radio"> 
+          <label for="mastercard">Mastercard</label>
+          <input id="amex" name="cardtype" type="radio">
           <label for="amex">AMEX</label>
-        </div> 
-        
-        <div> 
-          <button type=submit>Place Order</button> 
-        </div> 
-      </form> 
-      
-      
+        </div>
+        <div>
+          <button type=submit>Place Order</button>
+        </div>
+      </form>
     </div>
-    
-    
-    
-    
-    
-    
-    
+
+
     <form class="panel">
       <h1>Please sign in</h1>
-      
-      
       <input type="email" placeholder="Email address" required>
       <input type="password" placeholder="Password" required>
-      
-      
-        <div>
-          <label>
-            <input type="checkbox" value="remember-me"> Remember me
-          </label>
-        </div>
-        <button  type="submit">Sign in</button>
-      </form>
-      
-      
-      
-      
       <div>
-        
-        "But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?"
-        
+        <label>
+          <input type="checkbox" value="remember-me"> Remember me
+        </label>
+      </div>
+      <button type="submit">Sign in</button>
+    </form>
+    <div class="panel">
+      <div class="spinner"></div>
+    </div>
+    <div class="panel">
+      <h1>Rows</h1>
+      <div class="rows">
+        <div>
+          Some row
+        </div>
+        <div>
+          Another one
+        </div>
+        <div>
+          Another one
+        </div>
+        <div>
+          Another one
+        </div>
+        <div>
+          Another one
+        </div>
       </div>
     </div>
-    
-    
-  </body>
-  
-  </html>
+
+
+
+    <!-- Some text -->
+    <div>
+      "But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you
+      a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder
+      of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those
+      who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there
+      anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances
+      occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes
+      laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man
+      who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant
+      pleasure?"
+    </div>
+
+
+  </div>
+
+
+</body>
+
+</html>
