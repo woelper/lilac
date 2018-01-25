@@ -346,6 +346,12 @@ nav #nav-toggle {
         display: block;
         padding: 0.5em;
     }
+
+
+.panel {
+    margin-left: 2%;
+    margin-right: 2%;
+}
 }
 
 
@@ -374,6 +380,12 @@ nav #nav-toggle {
     #nav-items a {
         display: block;
         padding: 0.5em;
+    }
+    .panel {
+        margin-left: 0%;
+        margin-right: 0%;
+        border-right: none;
+        border-left: none;
     }
 }
 
