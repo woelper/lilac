@@ -2,9 +2,9 @@
 /* VARS */
     --main-color: #86608E;
     --bg-color: unset;
-    --contrast-color: invert() hue-rotate(-30deg);
+    --contrast-color: invert(100%) hue-rotate(-30deg);
     --accent-color: saturate(20%);
-    --main-contrast-filter: grayscale() invert() contrast(500%);
+    --main-contrast-filter: grayscale(100%) invert(100%) contrast(500%);
     --font-size: 1em;
     --main-font-color: rgb(85, 85, 85);
     --inverted-font-color: rgb(236, 236, 236);
