@@ -100,6 +100,46 @@ input[type=checkbox] {
     border-radius: 0%;
 }
 
+input[type=range] {
+    -webkit-appearance: none;
+    padding: 0px;
+    margin: 0px;
+    border: none;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    background-color: unset;
+    
+    
+}
+
+
+input[type=range]::-webkit-slider-thumb {
+    width: 1.2em;
+    height: 1.2em;
+    border-radius: 50%;
+    border: var(--border);
+    
+    background-color: var(--form-bg);
+    cursor: pointer;
+    -webkit-appearance: none;
+    margin-top: -0.6em;
+  }
+
+
+  input[type=range]::-webkit-slider-runnable-track {
+    height: var(--border-size);
+    cursor: pointer;
+    border: var(--border);
+    
+  }
+
+
+
+  input[type=range]::-moz-range-thumb {
+    width: 1em;
+    cursor: pointer;
+  }
+
 input[type=radio]:checked,
 input[type=checkbox]:checked {
     /* border: 6px solid black; */
@@ -353,6 +393,9 @@ nav #nav-toggle {
     margin-right: 2%;
 }
 }
+
+
+/* MEDIA OVERRIDES ############################################################ */
 
 
 @media only screen and (min-resolution: 192dpi) {
