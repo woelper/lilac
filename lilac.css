@@ -80,8 +80,7 @@ input:hover {
 }
 
 input[type=checkbox],
-input[type=radio],
-input[type=range] {
+input[type=radio] {
     width: unset;
 }
 
@@ -322,6 +321,11 @@ nav #nav-toggle {
     min-width: 15em;
     flex: 1 0.4 20%;
 }
+
+.grid-three-two-one {
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.3%;	
+  }
 
 
 /* SPINNER ############################################################*/
