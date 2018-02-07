@@ -1,5 +1,5 @@
 :root {
-/* VARS */
+    /* VARS */
     --main-color: #86608E;
     --bg-color: unset;
     --contrast-color: invert(100%) hue-rotate(-30deg);
@@ -9,7 +9,7 @@
     --main-font-color: rgb(85, 85, 85);
     --inverted-font-color: rgb(236, 236, 236);
     --form-bg: rgba(243, 243, 243, 0.5);
-    --nav-height: 80px;
+    --nav-height: 60px;
     --nav-button-height: 40px;
     --hover-filter: brightness(120%);
     --transition: 0.2s all ease-out;
@@ -107,37 +107,30 @@ input[type=range] {
     padding-top: 1em;
     padding-bottom: 1em;
     background-color: unset;
-    
-    
 }
-
 
 input[type=range]::-webkit-slider-thumb {
     width: 1.2em;
     height: 1.2em;
     border-radius: 50%;
     border: var(--border);
-    
     background-color: var(--form-bg);
     cursor: pointer;
     -webkit-appearance: none;
     margin-top: -0.6em;
-  }
+}
 
-
-  input[type=range]::-webkit-slider-runnable-track {
+input[type=range]::-webkit-slider-runnable-track {
     height: var(--border-size);
     cursor: pointer;
     border: var(--border);
     
-  }
+}
 
-
-
-  input[type=range]::-moz-range-thumb {
+input[type=range]::-moz-range-thumb {
     width: 1em;
     cursor: pointer;
-  }
+}
 
 input[type=radio]:checked,
 input[type=checkbox]:checked {
@@ -173,7 +166,7 @@ textarea:focus, input:focus{
 
 
 .content {
-    padding-top: calc(var(--font-size) * 6);;
+    padding-top: var(--nav-height);
 }
 
 
@@ -252,8 +245,8 @@ nav {
     box-shadow: var(--shadow-dark);
     padding-left: 1em;
     box-sizing: border-box;
-
-
+    
+    
 }
 
 nav a {
@@ -336,7 +329,7 @@ nav #nav-toggle {
 .grid-three-two-one {
     display: grid;
     grid-template-columns: 33.3% 33.3% 33.3%;	
-  }
+}
 
 
 /* SPINNER ############################################################*/
@@ -395,18 +388,18 @@ nav #nav-toggle {
         
         transform: unset;
         padding-left: unset;    
-    
+        
     }
     #nav-items a {
         display: block;
         padding: 0.5em;
     }
-
-
-.panel {
-    margin-left: 2%;
-    margin-right: 2%;
-}
+    
+    
+    .panel {
+        margin-left: 2%;
+        margin-right: 2%;
+    }
 }
 
 
@@ -414,14 +407,7 @@ nav #nav-toggle {
 
 
 @media only screen and (min-resolution: 192dpi) {
-    :root {
-        --font-size: 32px;
-        --nav-height: 200px;
-        --nav-button-height: calc(var(--font-size) * 3);
-        --hover-filter: brightness(110%);
-        --border: var(--border-size) solid rgb(197, 197, 197);
-        --radius: 2px;
-    }
+    
     #nav-toggle, #nav-icon {
         display: inline-block;
     }
@@ -444,6 +430,11 @@ nav #nav-toggle {
         margin-right: 0%;
         border-right: none;
         border-left: none;
+    }
+    
+    .grid-three-two-one {
+        display: grid;
+        grid-template-columns: 100%;	
     }
 }
 
