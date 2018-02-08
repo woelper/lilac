@@ -5,7 +5,7 @@
     --contrast-color: invert(100%) hue-rotate(-30deg);
     --accent-color: saturate(20%);
     --main-contrast-filter: grayscale(100%) invert(100%) contrast(500%);
-    --font-size: 1em;
+    --font-size: 0.95em;
     --main-font-color: rgb(85, 85, 85);
     --inverted-font-color: rgb(236, 236, 236);
     --form-bg: rgba(243, 243, 243, 0.5);
@@ -406,7 +406,7 @@ nav #nav-toggle {
 /* MEDIA OVERRIDES ############################################################ */
 
 
-@media only screen and (min-resolution: 192dpi) {
+@media only screen and (min-resolution: 192dpi) and (max-width: 800px){
     
     #nav-toggle, #nav-icon {
         display: inline-block;
@@ -441,7 +441,6 @@ nav #nav-toggle {
 
 @media only screen and (min-resolution: 192dpi) and (orientation: landscape){
     :root {
-        --font-size: 24px;
-        --nav-height: 100px;
+        --nav-height: 60px;
     }
 }
