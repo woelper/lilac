@@ -326,9 +326,9 @@ nav #nav-toggle {
     flex: 1 0.4 20%;
 }
 
-.grid-three-two-one {
+.grid-two-one {
     display: grid;
-    grid-template-columns: 33.3% 33.3% 33.3%;	
+    grid-template-columns: 50% 50%;	
 }
 
 
@@ -432,9 +432,15 @@ nav #nav-toggle {
         border-left: none;
     }
     
-    .grid-three-two-one {
+    .grid-two-one {
         display: grid;
         grid-template-columns: 100%;	
+    }
+
+    .grid-auto > div {
+        margin-left: 0em;
+        margin-right: 0em;
+        
     }
 }
 
