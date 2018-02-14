@@ -131,7 +131,7 @@ input[type=range]::-webkit-slider-runnable-track {
 }
 
 input[type=range]::-moz-range-thumb {
-    width: 1em;
+    width: 1.2em;
     cursor: pointer;
 }
 
@@ -204,7 +204,6 @@ textarea:focus, input:focus{
     background-color: rgba(0, 0, 0, 0.6);
     z-index: 1;
 }
-
 
 
 /* ROWS ############################################################ */
@@ -445,6 +444,20 @@ nav #nav-toggle {
         margin-right: 0em;
         
     }
+
+
+    input[type=range]::-webkit-slider-thumb {
+        width: 2em;
+        height: 2em;
+        border: var(--border);
+        -webkit-appearance: none;
+        margin-top: -1em;
+    }
+    input[type=range]::-moz-range-thumb {
+        width: 2em;
+        cursor: pointer;
+    }
+
 }
 
 
