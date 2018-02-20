@@ -213,7 +213,6 @@ textarea:focus, input:focus{
     grid-template-columns: 100%;
     grid-template-rows: 10%;
     grid-gap: 0.3em;
-    padding: 1em;
 }
 
 .rows > div:nth-child(odd) {
