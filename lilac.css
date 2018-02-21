@@ -205,6 +205,19 @@ textarea:focus, input:focus{
     z-index: 1;
 }
 
+/* MISC ############################################################*/
+
+.badge {
+    display: inline-block;
+    padding: 0.5em;
+    border: var(--border);
+    border-radius: 1em;
+    background-color: var(--main-color);
+    color: var(--inverted-font-color);
+    box-shadow: var(--shadow);
+    font-size: var(--font-size);
+}
+
 
 /* ROWS ############################################################ */
 
@@ -347,6 +360,9 @@ nav #nav-toggle {
     -webkit-animation: spin 2s linear infinite;
     animation: spin 2s linear infinite;
 }
+
+/* ANIMATION ############################################################*/
+
 
 @-webkit-keyframes spin {
     0% {
