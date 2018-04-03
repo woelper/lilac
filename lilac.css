@@ -24,6 +24,25 @@
     font-family: var(--font);
 }
 
+a, a:visited {
+    color: var(--main-color);
+    border-bottom: 2px solid;
+    text-decoration: none;
+    filter: brightness(70%);
+}
+
+a:visited {
+    filter: brightness(20%);
+}
+
+
+a:hover {
+    color: var(--main-color);
+    filter: brightness(120%);
+    background-color: var(--form-bg); 
+}
+
+
 body {
     font-size: var(--font-size);
     margin: 0;
