@@ -26,8 +26,6 @@
 
 a, a:visited {
     color: var(--main-color);
-    border-bottom: 2px solid;
-    text-decoration: none;
     filter: brightness(70%);
 }
 
