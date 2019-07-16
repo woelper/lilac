@@ -303,7 +303,8 @@ nav a:hover {
     position: absolute;
     transform: translateY(-50%);
     top: 50%;
-    padding-left: 10%;    
+    /* padding-left: 10%;     */
+    right: 2em;
     
     /* box-shadow: 0 2px 4px 0px black; */
 }

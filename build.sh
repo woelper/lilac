@@ -1,0 +1,1 @@
+uglifycss lilac.css > lilac.min.css
