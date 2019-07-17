@@ -170,7 +170,7 @@ button {
     font-size: var(--font-size);
 }
 
-button:hover {
+button:hover, button:focus {
     filter: var(--accent-color) var(--hover-filter);
 }
 
