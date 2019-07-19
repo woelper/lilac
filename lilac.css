@@ -459,7 +459,7 @@ nav #nav-toggle {
         top: var(--nav-height);
         transform: unset;
         padding-left: unset; 
-        padding: 0.5 em;
+        padding: 0.5em;
     }
     #nav-items a {
         display: block;
