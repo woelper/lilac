@@ -459,11 +459,16 @@ nav #nav-toggle {
         top: var(--nav-height);
         transform: unset;
         padding-left: unset; 
+        padding: 0.5 em;
     }
     #nav-items a {
         display: block;
-        padding: 0.5em;
+        padding: 0.3em;
     }
+    #nav-items button {
+        padding: 0.3em;
+    }
+
     .panel {
         margin-left: 0%;
         margin-right: 0%;
