@@ -170,6 +170,29 @@ button {
     font-size: var(--font-size);
 }
 
+.btn-close {
+    padding: 0px;
+    margin: 0px;
+
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    font-size: 24px;
+
+}
+
+.btn-close:after {
+    position: absolute;
+    padding: 0px;
+    margin: 0px;
+    line-height: 24px;
+    bottom: 0px;
+    right: 4px;
+    display: inline-block;
+    content: "\00d7"; /* This will render the 'X' */
+    font-size: 24px;
+  }
+
 button:hover, button:focus {
     filter: var(--accent-color) var(--hover-filter);
 }
@@ -511,3 +534,5 @@ nav #nav-toggle {
         --nav-height: 60px;
     }
 }
+
+
